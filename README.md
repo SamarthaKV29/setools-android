@@ -22,7 +22,16 @@ This tool injects allow rules into binary SELinux kernel policies.
 
 ## Building for Android
 
-Ensure that you have installed _android-ndk_ properly. Then run:
+Ensure that you have installed _android-ndk_ properly. 
+To install ndk, either use the one bundled with Android Studio or download a copy from [NDK Downloads][5]
+
+If you have Android Sdk make sure to add ndk-build to PATH
+```
+PATH="/home/sam/android-sdk/ndk-bundle:$PATH"
+export PATH
+```
+
+Then run:
 
     ndk-build
 
@@ -63,3 +72,4 @@ Based on [pasis/setools-android][3] by Dmitry Podgorny (pasis) and
 
 [3]: https://github.com/pasis/setools-android
 [4]: https://github.com/xmikos/setools-android
+[5]: https://developer.android.com/ndk/downloads
