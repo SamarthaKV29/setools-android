@@ -20,6 +20,7 @@ depcomp
 autom4te.cache
 .dirstamp
 .deps
+.vscode
 
 jni/libapol/*.o
 jni/libapol/regex/*.o
